@@ -1,4 +1,4 @@
-print("Konwerter plikow xml, .json i .yml (.yaml)")
+print("Program do konwersji danych obsługujący formaty: .xml, .json i .yml (.yaml)")
 x = input("Podaj sciezke i rozszerzenie pliku: ")
 y = input("Podaj sciezke i rozszerzenie pliku do jakiego chcialbys zapisac plik: ")
 file_name, file_extension = os.path.splitext(x)
