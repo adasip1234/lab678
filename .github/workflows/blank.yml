@@ -34,7 +34,7 @@ jobs:
 
     - name: Run build script
       run: |
-        pyinstaller --onefile ProjektIT.py
+        pyinstaller --onefile Lab678.py
 
     - name: Upload EXE artifact
       uses: actions/upload-artifact@v3
